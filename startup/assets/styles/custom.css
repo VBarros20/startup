@@ -1,0 +1,168 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #EEEEEE;
+  }
+  
+  .container {
+    margin: 0 auto; /* centralizando o conteudo no browser */
+    width: 1200px; /* medida fixa */
+
+
+  }
+  header h1 {
+    font-size: 4em; /* medida relativa */
+    color: #333;
+    padding: 5px;
+    margin-bottom: 2px;
+  }
+  
+  header h3 {
+    font-size: 1.5em;
+    color: #333;
+    padding: 10px; /* espaçamento interno do elemento */
+    margin-top: 5px;
+  }
+  
+  .country {
+    width: 23%; /* medida relativa */
+    height: 200px;  /* medida fixa */
+    float: left;  /* flutuando minha caixas  */
+    margin: 10px; /* espaçamento externo das divs */
+    -webkit-filter:grayscale(0%);
+  }
+  
+  .country:hover {
+    background-color: yellow;
+    cursor: pointer; /* alterando o icone do mouse quando passar sobre a div */
+    -webkit-filter: grayscale(100%);
+    transition: 1s;
+    box-shadow: 5px 10px #ffc68a;
+  }
+  
+  .country p {
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 5 ;
+    font-weight: bold;
+    color: #fff; 
+    letter-spacing:2px;
+    text-shadow: 4px 4px #0a0909;
+  }
+  
+  .clearfix {
+    clear: both; /* fazendo um reset na nossa flutuação */
+  }
+  
+  .bg-riodejaneiro {
+    background-image: url('../images/riodejaneiro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  .bg-california {
+    background-image: url('../images/california.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .bg-newyork {
+    background-image: url('../images/newyork.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-canada {
+    background-image: url('../images/canada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-boston {
+    background-image: url('../images/boston.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-lasvegas {
+    background-image: url('../images/lasvegas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-istanbul {
+    background-image: url('../images/istanbul.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-dubai {
+    background-image: url('../images/dubai.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-veneza {
+    background-image: url('../images/veneza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-cancun {
+    background-image: url('../images/cancun.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-kualalumpur {
+    background-image: url('../images/kualalumpur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-roma {
+    background-image: url('../images/roma.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-buenosaires {
+    background-image: url('../images/buenosaires.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-barcelona {
+    background-image: url('../images/barcelona.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-madrid {
+    background-image: url('../images/madrid.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-fortaleza {
+    background-image: url('../images/fortaleza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+
+  footer {
+    margin-top: 20px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  
+  footer p {
+    line-height: 4;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
